@@ -1,4 +1,4 @@
-const URL = 'http://localhost:3000';
+const URL = 'http://0.0.0.0:3000';
 export default {
   mode: 'universal',
   /*
@@ -48,13 +48,13 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
+  // buildModules: [
     // Simple usage
-    '@nuxtjs/vuetify',
+    // '@nuxtjs/vuetify',
 
     // With options
-    ['@nuxtjs/vuetify', { /* module options */ }]
-  ],
+    // ['@nuxtjs/vuetify', { /* module options */ }]
+  // ],
   /*
   ** Nuxt.js modules
   */
@@ -64,7 +64,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/auth',
-    // '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify'
 
   ],
   /*
