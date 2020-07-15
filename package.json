@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "MS",
+  "private": true,
+  "engines": {
+    "node": "12.14.1"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "bootstrap-vue": "^2.15.0",
+    "moment": "^2.26.0",
+    "nuxt": "^2.0.0",
+    "vue-multiselect": "^2.1.6",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
