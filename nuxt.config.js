@@ -1,4 +1,5 @@
 const URL = 'http://0.0.0.0:3000';
+// var port1 = 9900;
 export default {
   mode: 'universal',
   /*
@@ -92,7 +93,9 @@ export default {
     }
   },
   server: {
-    port: 9000, // default: 3000
+    
+    // process.env.PORT
+    port: process.env.PORT || 9000, // default: 3000
     host: '0.0.0.0' // default: localhost
   },
 
