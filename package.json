@@ -19,7 +19,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "bootstrap-vue": "^2.15.0",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "nuxt": "^2.0.0",
     "vue-multiselect": "^2.1.6",
     "vuex-persistedstate": "^3.0.1"
